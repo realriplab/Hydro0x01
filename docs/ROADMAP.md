@@ -10,14 +10,21 @@
   - [x] **Secure OTA Updates:** Cryptographically signed firmware distribution
   - [x] **Alerting Engine:** Telegram integration and in-app push notifications
   - [x] **Auto-Fill Logic:** Secondary pump management for automated reservoir maintenance
+  - [x] **VPD Monitoring:** Real-time Vapor Pressure Deficit calculation for optimal plant transpiration
+  - [x] **DLI Tracking:** Daily Light Integral integration
+  - [x] **Industrial Liquid Level Sensing:** Submersible hydrostatic pressure transmitter support
 
-### 🚧 In Progress (Advanced Agronomy)
-
-  - [ ] **VPD Monitoring:** Real-time Vapor Pressure Deficit calculation for optimal plant transpiration
-  - [ ] **DLI Tracking:** Daily Light Integral integration using PAR sensors
-  - [ ] **Industrial Liquid Level Sensing:** Submersible hydrostatic pressure transmitter support
+### 🚧 In Progress
+  - [ ] **Native Mobile App:** Dedicated React Native clients for iOS and Android
 
 ### 📅 Planned (Future Epics)
+
+**Commercial-Grade Hardware Integration**
+
+  - [ ] **NPK Ion-Selective Electrodes (ISE):** Direct measurement of individual N, P, and K ratios to optimize Nutrient Use Efficiency (NUE) and prevent buildup.
+  - [ ] **Advanced Flow Management:** Flowmeter support with automated flowrate calculation formulas tailored to specific crop types and channel sizes.
+  - [ ] **Air Quality & Circulation:** HEPA filter maintenance tracking and anemometer integration to ensure optimal airflow (\>2m/s).
+  - [ ] **Dedicated Agitator Control:** Independent relay support for motorized solution mixing (an optional alternative to the current pump-driven lockout cycle).
 
 **System Architecture & Scaling**
 
@@ -28,7 +35,6 @@
 **Software & Ecosystem**
 
   - [ ] **Crop Recipe Database:** Downloadable, crop-specific optimal environmental profiles
-  - [ ] **Native Mobile App:** Dedicated React Native clients for iOS and Android
   - [ ] **Multi-Language Support (i18n):** Global localization for the web dashboard and alerting system
 
 **AI & Computer Vision**
