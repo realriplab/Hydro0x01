@@ -65,3 +65,17 @@ jobs:
     - name: Typecheck Backend
       working-directory: ./backend
       run: npx tsc --noEmit
+
+
+  security-scan:
+    name: Virus Scan (ClamAV / YARA)
+    runs-on: ubuntu-latest
+    continue-on-error: true
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan Repository
+        uses: hugoalh/scan-virus-ghaction@v0.20.1
